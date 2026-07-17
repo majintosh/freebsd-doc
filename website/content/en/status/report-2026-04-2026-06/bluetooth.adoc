@@ -22,7 +22,3 @@ Current issues and planned changes:
 
 All testing so far has been done with the Nintendo Switch Pro Controller.
 
-Relevant links:
-
-link:https://wiki.freebsd.org/SummerOfCode2026Projects/BluetoothSupportForHIDDevices[FreeBSD wiki project page] URL: link:https://wiki.freebsd.org/SummerOfCode2026Projects/BluetoothSupportForHIDDevices[] +
-link:https://github.com/majintosh/freebsd-bthid[Project Github repo] URL: link:https://github.com/majintosh/freebsd-bthid
