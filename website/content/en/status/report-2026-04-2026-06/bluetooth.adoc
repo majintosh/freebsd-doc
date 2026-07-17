@@ -4,7 +4,7 @@ Contact: Majed Alkhaleefah <majed@FreeBSD.org>
 
 I have been working on two drivers to enable support for HID drivers for Bluetooth devices as part of GSoC 2026.
 
-The primary goal of this project is to register connected Bluetooth HID devices as Newbus devices via two new drivers: `bthidbus` and `bthid`. `bthidbus` acts as the parent bus that manages the creation and attachment of `bthid` child devices. `bthid` serves as the transport layer, spawning a `hidbus` device and routing all received packets to it once they're stripped of their headers. The short-term goal here is to enable support for wireless HID connections. The longer-term goal is to begin setting the foundation that allows others to write drivers for devices that can only connect via Bluetooth.
+The primary goal of this project is to register connected Bluetooth HID devices as Newbus devices via two new drivers: `bthidbus` and `bthid`. `bthidbus` acts as the parent bus that manages the creation and attachment of `bthid` child devices. `bthid` serves as the transport layer, spawning a `hidbus` device and routing all received packets to it once they are stripped of their headers. The short-term goal here is to enable support for wireless HID connections. The longer-term goal is to begin setting the foundation that allows others to write drivers for devices that can only connect via Bluetooth.
 
 What's been accomplished:
 
