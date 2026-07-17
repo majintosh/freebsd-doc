@@ -1,5 +1,8 @@
 === Bluetooth HID drivers
+Links:
 
+link:https://wiki.freebsd.org/SummerOfCode2026Projects/BluetoothSupportForHIDDevices[FreeBSD wiki project page] URL: link:https://wiki.freebsd.org/SummerOfCode2026Projects/BluetoothSupportForHIDDevices[] +
+link:https://github.com/majintosh/freebsd-bthid[Project Github repo] URL: link:https://github.com/majintosh/freebsd-bthid[]
 Contact: Majed Alkhaleefah <majed@FreeBSD.org>
 
 I have been working on two drivers to enable support for HID drivers for Bluetooth devices as part of GSoC 2026.
